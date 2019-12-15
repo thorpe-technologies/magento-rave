@@ -51,13 +51,12 @@ Coming Soon.
 *  Click the Download Zip button and save to your local machine.
 *  Unpack(Extract) the archive.
 *  Copy the content of the __Code__ directory into your Magento's __app/code__ directory.
-*  Enable the Rave Payments module:
-   From your commandline, in your magento root directory, run
-   ```php bin/magento module:enable Rave_Payments --clear-static-content && php bin/magento setup:upgrade```
-
-Once the `setup:upgrade` completes the module will be available in the Store Admin.
-
-
+*  To Enable the Rave Payments module via Cli, login to Magento root folder, then run:
+   ```php bin/magento module:enable Rave_Payments --clear-static-content```
+   ```&& php bin/magento setup:upgrade```
+   ```php bin/magento setup:di:compile```
+   
+*  All Done...
 
 ### Configure the plugin
 
