@@ -55,6 +55,8 @@ Coming Soon.
    ```php bin/magento module:enable Rave_Payments --clear-static-content```
    ```&& php bin/magento setup:upgrade```
    ```&& php bin/magento setup:di:compile```
+   ```&& php bin/magento cache:flush```
+   
    
 *  All Done...
 
